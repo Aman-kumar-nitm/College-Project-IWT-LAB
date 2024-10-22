@@ -1,0 +1,28 @@
+.project_container{
+    margin:auto;
+    margin-top:5px;
+    width:75%;
+    background-color:white;
+}
+.header{
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color:rgb(138, 138, 216);
+}
+.left{ 
+    text-align:center;
+   font-weight:bold; 
+   color:white;
+}
+.right{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1rem;
+    margin-top:1rem;
+    color:white; 
+}
+.body{
+    margin-top:10px;
+    border-radius:2px;
+}
